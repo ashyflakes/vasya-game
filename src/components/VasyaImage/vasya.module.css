@@ -1,0 +1,11 @@
+.vasya {
+	display: block;
+
+	object-fit: cover;
+	object-position: center;
+
+	aspect-ratio: 1;
+
+	height: .5rem;
+	width: .5rem;
+}

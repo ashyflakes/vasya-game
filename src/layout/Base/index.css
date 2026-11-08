@@ -1,0 +1,57 @@
+*, *::before, *::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+html {
+	scroll-behavior: smooth;
+	overflow-x: hidden;
+}
+:where(a[href]) {
+	text-decoration: none;
+	color: inherit;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+}
+:where(fieldset) {
+	border: none;
+}
+:where(button) {
+	border: none;
+	color: inherit;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+}
+:where(svg) {
+	fill: currentColor;
+	display: block;
+	aspect-ratio: 1;
+	height: 1rem;
+	width: 1rem;
+
+	object-fit: contain;
+	object-position: center;
+}
+:where(abbr[title]) {
+	text-decoration: none;
+}
+:where(input, textarea) {
+	border: none;
+	color: inherit;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+
+	@supports (field-sizing: content) {
+		field-sizing: content;
+	}
+}
+:where(textarea) {
+	@supports (resize: vertical) {
+		resize: vertical;
+	}
+}

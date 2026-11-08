@@ -1,0 +1,73 @@
+:root {
+	/* backgrounds */
+
+	--background: light-dark(oklch(0.9792 0.0041 271.37), oklch(0.16 0.008 271));
+	--surface: light-dark(oklch(1 0 0), oklch(0.21 0.01 271));
+	--surface-muted: light-dark(oklch(0.982 0 0), oklch(0.25 0.01 271));
+
+	--scrollbar: oklch(0.916 0 0);
+
+	--text-black: oklch(0 0 0);
+	--text-darkest: oklch(0.152 0.02 274.073);
+	--text-dark: oklch(0.187 0.026 263.623);
+	--text-darker: oklch(0.249 0.041 263.421);
+	--text-lighter: oklch(0.72 0 0);
+	--text-light: oklch(0.6 0 0);
+	--text-lightest: oklch(0.845 0 0);
+	--text-white: oklch(1 0 0);
+
+	/* font-sizes */
+
+	--font-small: clamp(.5rem, .5dvw + .25rem, .75rem);
+	--font-regularer: clamp(.75rem, .75dvw + .5rem, .95rem);
+	--font-regular: clamp(1rem, .75dvw + .5rem, 1.15rem);
+	--font-mediumer: clamp(1rem, .8dvw + .3rem, 1.2rem);
+	--font-medium: clamp(1rem, 1dvw + .25rem, 1.5rem);
+	--font-big: clamp(1.5rem, 2dvw + 1.5rem, 2rem);
+	--font-bigger: clamp(1.5rem, 2.5dvw + 1.5rem, 2.5rem);
+	--font-large: clamp(1.5rem, 3dvw + 2rem, 3rem);
+	--font-giagantic: clamp(2rem, 3dvw + 2.5rem, 5rem);
+	--font-enormous: clamp(3rem, 4dvw + 5rem, 10rem);
+
+	/* spacings */
+
+	--spacing-little: clamp(.25rem, .25dvw + .25rem, .5rem);
+	--spacing-small: clamp(.5rem, .5dvw + .25rem, .75rem);
+	--spacing-regular: clamp(1rem, .75dvw + .5rem, 1.15rem);
+	--spacing-medium: clamp(1rem, 1dvw + .25rem, 1.5rem);
+	--spacing-big: clamp(1.5rem, 2dvw + 1.5rem, 2rem);
+	--spacing-bigger: clamp(1.5rem, 2.5dvw + 1.5rem, 2.5rem);
+	--spacing-large: clamp(1.5rem, 3dvw + 2rem, 3rem);
+	--spacing-larger: clamp(1.5rem, 3dvw + 2rem, 4rem);
+	--spacing-giagantic: clamp(2rem, 3.5dvw + 2.5rem, 5rem);
+	--spacing-enormous: clamp(3rem, 4dvw + 5rem, 10rem);
+
+	/* corners */
+
+	--corner-sharpest: .25rem;
+	--corner-sharp: .5rem;
+	--corner-regular: 1rem;
+	--corner-smooth: 2rem;
+	--corner-smoother: 3rem;
+	--corner-smoothest: 5rem;
+
+	/* transform: translateY() values */
+
+	--downward-small: .15rem;
+	--downward-medium: .3rem;
+	--downward-big: .5rem;
+
+	/* borders */
+
+	--border: light-dark(oklch(0.9276 0.0058 264.53), oklch(0.32 0.012 264));
+
+	/* accents */
+
+	--accent: light-dark(oklch(0.75 0.139 244.46), oklch(0.582 0.155 256.375));
+	--accent-hover: light-dark(oklch(0.714 0.133 249.609), oklch(0.64 0.129 259.336));
+	--accent-active: light-dark(oklch(0.661 0.175 261.629), oklch(0.594 0.169 259.21));
+
+	--delete: light-dark(oklch(0.669 0.222 13.414), oklch(0.595 0.204 14.605));
+	--delete-hover: light-dark(oklch(0.693 0.203 10.547), oklch(0.65 0.152 8.261));
+	--delete-active: light-dark(oklch(0.575 0.212 16.692), oklch(0.574 0.192 16.079));
+}
